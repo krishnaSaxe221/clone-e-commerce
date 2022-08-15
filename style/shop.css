@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+.offerTrail {
+    border-bottom: 2px solid #000;
+    font-size: medium;
+    font-weight: bolder;
+    color: #3D5A23;
+    padding: 0.5% 0;
+    background-color: #D8EBC7;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+
+.nav {
+    padding: 2% 0;
+}
+
+.nav h1 {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.logo {
+    color: #3D5A23;
+    display: flex;
+    padding: 0 5%;
+    cursor: pointer;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.nav ul {
+    width: 40%;
+}
+
+.nav ul li a {
+    margin: 0 40px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+
+}
+
+.heading h2 {
+    font-weight: bolder;
+    width: 30%;
+    margin: 90px;
+    text-align: center;
+    padding: 0px 50px;
+    font-size: 35px;
+    color: #3D5A23;
+}
+
+.heading p {
+    font-weight: bolder;
+    padding: 0px 17%;
+    position: absolute;
+    top: 38%;
+    width: 31%;
+    padding-right: 0px;
+}
+
+.image1 img {
+    width: 20%;
+    padding: 0px 17%;
+    padding-right: 0px;
+    position: absolute;
+    top: 48%;
+    cursor: pointer;
+}
+
+.image1 h2 {
+    color: #3D5A23;
+    font-weight: bolder;
+    margin: 0px;
+    margin-top: 34.5%;
+    margin-left: 17%;
+    width: 15%;
+}
+
+.image1 p {
+    font-weight: bolder;
+    margin: 0px;
+    margin-top: -5px;
+    margin-left: 17%;
+}
+
+.image2 img {
+    width: 20%;
+    padding: 0px 39%;
+    padding-right: 0px;
+    position: absolute;
+    top: 48%;
+    cursor: pointer;
+}
+
+.image2 h2 {
+    color: #3D5A23;
+    font-weight: bolder;
+    margin: 0px;
+    margin-top: -5.5%;
+    margin-left: 39%;
+    width: 10%;
+}
+
+.image2 p {
+    font-weight: bolder;
+    margin: 0px;
+    width: 8%;
+    margin: 0px;
+    margin-left: 38.9%;
+    margin-top: 1%;
+}
+
+.image3 img {
+    width: 20%;
+    padding: 0px 61%;
+    padding-right: 0px;
+    position: absolute;
+    top: 48%;
+    cursor: pointer;
+}
+
+.image3 h2 {
+    color: #3D5A23;
+    font-weight: bolder;
+    margin: 0px;
+    width: 11%;
+    margin-left: 61%;
+    margin-top: -4.1%;
+}
+
+.image3 p {
+    font-weight: bolder;
+    width: 8%;
+    margin: 0px;
+    margin-left: 61%;
+    margin-top: 10px
+}
+
+.image4 img {
+    width: 20%;
+    padding: 0px 17%;
+    padding-right: 0px;
+    position: absolute;
+    top: 117%;
+    cursor: pointer;
+}
+
+.image4 h2 {
+    color: #3D5A23;
+    font-weight: bolder;
+    margin: 0px;
+    margin-left: 61%;
+    margin-top: 30.5%;
+    width: 15%;
+}
+
+.image4 p {
+    font-weight: bolder;
+    margin: 0px;
+    margin-left: 61%;
+    margin-top: 11px;
+    width: 5%;
+}
+
+.image5 img {
+    width: 20%;
+    padding: 0px 39%;
+    padding-right: 0px;
+    position: absolute;
+    top: 117%;
+    cursor: pointer;
+}
+
+.image5 h2 {
+    color: #3D5A23;
+    font-weight: bolder;
+    margin: 0px;
+    width: 13%;
+    margin-left: 39%;
+    margin-top: -4%;
+}
+
+.image5 p {
+    font-weight: bolder;
+    margin: 0px;
+    margin-left: 39%;
+    margin-top: 9px;
+}
+
+.image6 img {
+    width: 20%;
+    padding: 0px 61%;
+    padding-right: 0px;
+    position: absolute;
+    top: 117%;
+    cursor: pointer;
+}
+
+.image6 h2 {
+    font-weight: bolder;
+    color: #3D5A23;
+    margin: 0px;
+    margin-top: -4%;
+    margin-left: 16.7%
+}
+
+.image6 p {
+    font-weight: bolder;
+    margin: 0px;
+    margin-left: 16.7%;
+    margin-top: 9px;
+}
+
+.flexcontainer {
+    width: 100%;
+    height: 200px;
+    border-top: 1px solid black;
+    margin: 0 auto;
+    position: absolute;
+    top: 200%;
+}
+
+.firstbox p {
+    width: 12%;
+    position: absolute;
+    top: 32%;
+    left: 10.5%;
+    font-weight: bolder;
+    list-style: none;
+    cursor: pointer;
+}
+
+.secondbox {
+    width: 12%;
+    position: absolute;
+    top: 32%;
+    left: 31%;
+    font-weight: bolder;
+    list-style: none;
+    cursor: pointer;
+}
+
+.thirdbox {
+    width: 15%;
+    position: absolute;
+    top: 32%;
+    left: 55%;
+    font-weight: bolder;
+    list-style: none;
+    cursor: pointer;
+}
+
+.fourthbox {
+    width: 12%;
+    position: absolute;
+    top: 32%;
+    left: 78%;
+    font-weight: bolder;
+    list-style: none;
+    cursor: pointer;
+}
+
+.lastline p {
+    width: 100%;
+    position: absolute;
+    top: 143%;
+    padding: 12px 0;
+    border-top: 1px solid #000;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #E2E2F2;
+}
+
+.socialmedia ul {
+    position: absolute;
+    top: 89%;
+    left: 77.1%;
+    list-style: none;
+    display: flex;
+}
+
+.socialmedia ul li {
+    margin: 0 10px;
+}

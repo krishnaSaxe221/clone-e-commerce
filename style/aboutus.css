@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+.offerTrail {
+    border-bottom: 2px solid #000;
+    font-size: medium;
+    font-weight: bolder;
+    color: #3D5A23;
+    padding: 0.5% 0;
+    background-color: #D8EBC7;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+
+.nav {
+    padding: 2% 0;
+}
+
+.nav h1 {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.logo {
+    color: #3D5A23;
+    display: flex;
+    padding: 0 5%;
+    cursor: pointer;
+    list-style: none;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.nav ul {
+    width: 40%;
+}
+
+.nav ul li a {
+    margin: 0 40px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+.heading h3 {
+    font-weight: bolder;
+    width: 20%;
+    margin: 85px;
+    text-align: center;
+    padding: 0px 50px;
+    font-size: 22px;
+    color: #3D5A23;
+}
+
+.heading h2 {
+    font-weight: bolder;
+    padding: 0px 15%;
+    position: absolute;
+    top: 38%;
+    width: 25%;
+    padding-right: 0px;
+    font-size: 236%;
+    position: absolute;
+    top: 34%;
+    color: #3D5A23;
+}
+
+.heading p {
+    font-weight: bolder;
+    width: 30%;
+    position: absolute;
+    top: 56%;
+    margin: 10px 14.8%;
+    word-spacing: 2px;
+}
+
+.aboutus2 img {
+    width: 22%;
+    margin: -129px 0;
+    padding-right: 0px;
+    cursor: pointer;
+    margin-left: 69%;
+}
+
+.aboutus1 img {
+    width: 22%;
+    padding-right: 0px;
+    margin: -7% 0;
+    margin-left: 60%;
+}
+.flexcontainer {
+    width: 100%;
+    height: 200px;
+    border-top: 1px solid black;
+    margin: 0 auto;
+    position: absolute;
+    top: 115%;
+    cursor: pointer;
+}
+
+.firstbox p {
+    width: 12%;
+    position: absolute;
+    top: 32%;
+    left: 10.5%;
+    font-weight: bolder;
+    list-style: none;
+    cursor: pointer;
+}
+
+.secondbox {
+    width: 12%;
+    position: absolute;
+    top: 32%;
+    left: 31%;
+    font-weight: bolder;
+    list-style: none;
+    cursor: pointer;
+}
+
+.thirdbox {
+    width: 15%;
+    position: absolute;
+    top: 32%;
+    left: 55%;
+    font-weight: bolder;
+    list-style: none;
+    cursor: pointer;
+}
+
+.fourthbox {
+    width: 12%;
+    position: absolute;
+    top: 32%;
+    left: 78%;
+    font-weight: bolder;
+    list-style: none;
+    cursor: pointer;
+}
+
+.lastline p {
+    width: 100%;
+    position: absolute;
+    top: 143%;
+    padding: 12px 0;
+    border-top: 1px solid #000;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #E2E2F2;
+}
+
+.socialmedia ul {
+    position: absolute;
+    top: 89%;
+    left: 77.1%;
+    list-style: none;
+    display: flex;
+}
+
+.socialmedia ul li {
+    margin: 0 10px;
+}
